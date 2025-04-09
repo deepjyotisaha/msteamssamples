@@ -1,3 +1,6 @@
+import asyncio
+from datetime import datetime
+
 from botbuilder.core import ActivityHandler, MessageFactory, TurnContext, CardFactory
 from botbuilder.schema import (
     ChannelAccount,
@@ -6,6 +9,8 @@ from botbuilder.schema import (
     ActivityTypes,
     Mention,
     ConversationParameters,
+    Activity,
+    Attachment,
 )
 from typing import List
 
@@ -35,6 +40,11 @@ class TeamsConversationBot(ActivityHandler):
         if "message all members" in text:
             await self._message_all_members(turn_context)
             return
+        
+        # Add new command handler
+        if "initiate routine" in text:
+            await self._initiate_routine(turn_context)
+            return
 
         await turn_context.send_activity(response)
 
@@ -60,6 +70,12 @@ class TeamsConversationBot(ActivityHandler):
                     title="Message All Members",
                     text="message all members",
                     display_text="Message all members",
+                ),
+                CardAction(
+                    type="messageBack",
+                    title="Initiate Routine",
+                    text="initiate routine",
+                    display_text="Initiate routine",
                 ),
             ],
         )
@@ -121,3 +137,63 @@ class TeamsConversationBot(ActivityHandler):
                 break
 
         return members 
+    
+    async def _initiate_routine(self, turn_context: TurnContext):
+        # Send initial card
+        card = HeroCard(
+            title="Routine Progress",
+            text="Starting routine...\n"
+        )
+        
+        # Send initial message and store its activity info for updates
+        initial_message = MessageFactory.attachment(CardFactory.hero_card(card))
+        sent_activity = await turn_context.send_activity(initial_message)
+        
+        # Store the complete message log
+        message_log = ["Starting routine..."]
+        
+        # Run the routine
+        try:
+            for iteration in range(1, 11):  # 10 iterations
+                # Sleep for 2 seconds
+                await asyncio.sleep(2)
+                
+                # Update message log
+                timestamp = datetime.now().strftime("%H:%M:%S")
+                new_message = f"Iteration {iteration} complete at {timestamp}"
+                message_log.append(new_message)
+                
+                # Create updated card with all messages
+                updated_card = HeroCard(
+                    title="Routine Progress",
+                    text="\n".join(message_log)
+                )
+                
+                # Update the existing card
+                update_activity = MessageFactory.attachment(CardFactory.hero_card(updated_card))
+                update_activity.id = sent_activity.id
+                
+                # Send the update
+                await turn_context.update_activity(update_activity)
+                
+            # Add completion message
+            message_log.append("\nRoutine completed successfully!")
+            final_card = HeroCard(
+                title="Routine Progress",
+                text="\n".join(message_log)
+            )
+            
+            # Send final update
+            final_update = MessageFactory.attachment(CardFactory.hero_card(final_card))
+            final_update.id = sent_activity.id
+            await turn_context.update_activity(final_update)
+            
+        except Exception as e:
+            # Handle any errors
+            error_card = HeroCard(
+                title="Routine Progress",
+                text=f"{'\n'.join(message_log)}\n\nError: Routine interrupted - {str(e)}"
+            )
+            error_update = MessageFactory.attachment(CardFactory.hero_card(error_card))
+            error_update.id = sent_activity.id
+            await turn_context.update_activity(error_update)
