@@ -1,0 +1,1292 @@
+2025-04-10 00:26:48,951 - INFO - Initializing bot configuration...
+2025-04-10 00:26:48,951 - INFO - App ID: 4f9ae219-bc03-4211-9c2a-f1d61ae6f84a
+2025-04-10 00:26:48,951 - INFO - Port: 3978
+2025-04-10 00:26:48,951 - INFO - Starting web server on port 3978
+2025-04-10 00:27:47,316 - INFO - Received incoming message request
+2025-04-10 00:27:47,317 - INFO - Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1104', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsIng1dCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0MjI1MDY3LA0KICAiZXhwIjogMTc0NDIyODY2NywNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.rrnXEEpmcT5bSurtux1n6kc-vUbXQcPGIgDTCGyoFbNZcQAVNyB-ULaxTY2npbj7Ydo0YAnye8Qrz3yhxOPdP7wCgi1peCFllnJks5085mnZq4qx-MWhw4IOYCjdHvLrzkqhoHj5_4yPKdCMGdDuPtNRP8kHIrtFAbG-R8sAVYColkZ2O2pDy5TmyHFottH2duu9z3IgAb3Cvk7TG9t5E_7Ft_jQ3ByQyUTW6igymX8CWuvA-DEZEP3UH5xmu_9IXM48czL6AzdJlIBs2m3Ub0_JBnrKFDXf9EUxmBYXZMYUx4ifEZvBrBe8hm75NmZjxFrP1TWfjHwVY1AefWN7aQ', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'yGA/XbgYmEuF4w7iZPwRcA.1.1.1.409628130.1.1', 'X-Forwarded-For': '52.112.106.2', 'X-Forwarded-Host': '026a-171-76-86-206.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 00:27:47,318 - INFO - Received message body: {'text': 'Show Welcome', 'textFormat': 'plain', 'attachments': [{'contentType': 'text/html', 'content': '<p>Show Welcome</p>'}], 'type': 'message', 'timestamp': '2025-04-09T18:57:46.8679786Z', 'localTimestamp': '2025-04-10T00:27:46.8679786+05:30', 'id': '1744225066850', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 00:27:47,322 - INFO - Processing activity type: message
+2025-04-10 00:27:51,194 - ERROR - 
+ [on_turn_error]: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 391c8f42-78e5-4344-8eb9-09eb3aa10e00 Correlation ID: 53a90a03-8328-48d5-bf58-b40692a57db7 Timestamp: 2025-04-09 18:57:51Z
+2025-04-10 00:27:51,217 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 174, in run_pipeline
+    return await self._middleware.receive_activity_with_status(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        context, callback
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 69, in receive_activity_with_status
+    return await self.receive_activity_internal(context, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 79, in receive_activity_internal
+    return await callback(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\activity_handler.py", line 70, in on_turn
+    await self.on_message_activity(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 32, in on_message_activity
+    await self._send_welcome_message(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 66, in _send_welcome_message
+    await turn_context.send_activity(
+        MessageFactory.attachment(CardFactory.hero_card(welcome_card))
+    )
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 391c8f42-78e5-4344-8eb9-09eb3aa10e00 Correlation ID: 53a90a03-8328-48d5-bf58-b40692a57db7 Timestamp: 2025-04-09 18:57:51Z
+
+2025-04-10 00:27:51,912 - ERROR - Error processing message: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 391c8f42-78e5-4344-8eb9-09eb69a10e00 Correlation ID: eaf7629e-4ef2-4c34-b66b-a3ab8babb44a Timestamp: 2025-04-09 18:57:52Z
+2025-04-10 00:27:51,918 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 174, in run_pipeline
+    return await self._middleware.receive_activity_with_status(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        context, callback
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 69, in receive_activity_with_status
+    return await self.receive_activity_internal(context, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 79, in receive_activity_internal
+    return await callback(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\activity_handler.py", line 70, in on_turn
+    await self.on_message_activity(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 32, in on_message_activity
+    await self._send_welcome_message(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 66, in _send_welcome_message
+    await turn_context.send_activity(
+        MessageFactory.attachment(CardFactory.hero_card(welcome_card))
+    )
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 391c8f42-78e5-4344-8eb9-09eb3aa10e00 Correlation ID: 53a90a03-8328-48d5-bf58-b40692a57db7 Timestamp: 2025-04-09 18:57:51Z
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\app.py", line 70, in messages
+    response = await ADAPTER.process_activity(activity, auth_header, BOT.on_turn)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 445, in process_activity
+    return await self.process_activity_with_identity(activity, identity, logic)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 487, in process_activity_with_identity
+    await self.run_pipeline(context, logic)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 179, in run_pipeline
+    await self.on_turn_error(context, error)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\app.py", line 48, in on_error
+    await context.send_activity("The bot encountered an error or bug.")
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 391c8f42-78e5-4344-8eb9-09eb69a10e00 Correlation ID: eaf7629e-4ef2-4c34-b66b-a3ab8babb44a Timestamp: 2025-04-09 18:57:52Z
+
+2025-04-10 00:27:51,923 - INFO - ::1 [10/Apr/2025:00:27:47 +0530] "POST /api/messages HTTP/1.1" 500 170 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 00:27:52,932 - INFO - Received incoming message request
+2025-04-10 00:27:52,933 - INFO - Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1104', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsIng1dCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0MjI1MDY3LA0KICAiZXhwIjogMTc0NDIyODY2NywNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.rrnXEEpmcT5bSurtux1n6kc-vUbXQcPGIgDTCGyoFbNZcQAVNyB-ULaxTY2npbj7Ydo0YAnye8Qrz3yhxOPdP7wCgi1peCFllnJks5085mnZq4qx-MWhw4IOYCjdHvLrzkqhoHj5_4yPKdCMGdDuPtNRP8kHIrtFAbG-R8sAVYColkZ2O2pDy5TmyHFottH2duu9z3IgAb3Cvk7TG9t5E_7Ft_jQ3ByQyUTW6igymX8CWuvA-DEZEP3UH5xmu_9IXM48czL6AzdJlIBs2m3Ub0_JBnrKFDXf9EUxmBYXZMYUx4ifEZvBrBe8hm75NmZjxFrP1TWfjHwVY1AefWN7aQ', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'yGA/XbgYmEuF4w7iZPwRcA.1.1.1.409628130.1.1', 'X-Forwarded-For': '52.112.106.2', 'X-Forwarded-Host': '026a-171-76-86-206.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 00:27:52,935 - INFO - Received message body: {'text': 'Show Welcome', 'textFormat': 'plain', 'attachments': [{'contentType': 'text/html', 'content': '<p>Show Welcome</p>'}], 'type': 'message', 'timestamp': '2025-04-09T18:57:46.8679786Z', 'localTimestamp': '2025-04-10T00:27:46.8679786+05:30', 'id': '1744225066850', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 00:27:52,936 - INFO - Processing activity type: message
+2025-04-10 00:27:54,182 - ERROR - 
+ [on_turn_error]: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 46fe835c-08cd-4498-9655-b21db78b0300 Correlation ID: 5bf92a27-93d8-4ba2-86cd-09c9b214f346 Timestamp: 2025-04-09 18:57:54Z
+2025-04-10 00:27:54,187 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 174, in run_pipeline
+    return await self._middleware.receive_activity_with_status(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        context, callback
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 69, in receive_activity_with_status
+    return await self.receive_activity_internal(context, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 79, in receive_activity_internal
+    return await callback(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\activity_handler.py", line 70, in on_turn
+    await self.on_message_activity(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 32, in on_message_activity
+    await self._send_welcome_message(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 66, in _send_welcome_message
+    await turn_context.send_activity(
+        MessageFactory.attachment(CardFactory.hero_card(welcome_card))
+    )
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 46fe835c-08cd-4498-9655-b21db78b0300 Correlation ID: 5bf92a27-93d8-4ba2-86cd-09c9b214f346 Timestamp: 2025-04-09 18:57:54Z
+
+2025-04-10 00:27:55,495 - ERROR - Error processing message: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 8db9b430-f12e-433d-91c7-a1dd30b5c200 Correlation ID: bdf08862-a1b9-4469-b11a-4fa33910cac3 Timestamp: 2025-04-09 18:57:55Z
+2025-04-10 00:27:55,499 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 174, in run_pipeline
+    return await self._middleware.receive_activity_with_status(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        context, callback
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 69, in receive_activity_with_status
+    return await self.receive_activity_internal(context, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 79, in receive_activity_internal
+    return await callback(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\activity_handler.py", line 70, in on_turn
+    await self.on_message_activity(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 32, in on_message_activity
+    await self._send_welcome_message(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 66, in _send_welcome_message
+    await turn_context.send_activity(
+        MessageFactory.attachment(CardFactory.hero_card(welcome_card))
+    )
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 46fe835c-08cd-4498-9655-b21db78b0300 Correlation ID: 5bf92a27-93d8-4ba2-86cd-09c9b214f346 Timestamp: 2025-04-09 18:57:54Z
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\app.py", line 70, in messages
+    response = await ADAPTER.process_activity(activity, auth_header, BOT.on_turn)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 445, in process_activity
+    return await self.process_activity_with_identity(activity, identity, logic)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 487, in process_activity_with_identity
+    await self.run_pipeline(context, logic)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 179, in run_pipeline
+    await self.on_turn_error(context, error)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\app.py", line 48, in on_error
+    await context.send_activity("The bot encountered an error or bug.")
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 8db9b430-f12e-433d-91c7-a1dd30b5c200 Correlation ID: bdf08862-a1b9-4469-b11a-4fa33910cac3 Timestamp: 2025-04-09 18:57:55Z
+
+2025-04-10 00:27:55,500 - INFO - ::1 [10/Apr/2025:00:27:52 +0530] "POST /api/messages HTTP/1.1" 500 170 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 00:28:16,360 - INFO - Initializing bot configuration...
+2025-04-10 00:28:16,361 - INFO - App ID: 4f9ae219-bc03-4211-9c2a-f1d61ae6f84a
+2025-04-10 00:28:16,361 - INFO - Port: 3978
+2025-04-10 00:28:16,361 - INFO - Starting web server on port 3978
+2025-04-10 00:28:22,907 - INFO - Received incoming message request
+2025-04-10 00:28:22,908 - INFO - Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1104', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsIng1dCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0MjI1MTAyLA0KICAiZXhwIjogMTc0NDIyODcwMiwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.TUZSD7R_86m4yNZ5QZcUPY58DXGFRkMEn0nSsvL9Wx05RJnMT70tN9O176WaeoiWVPzcmWZXy-Ufjm89C7aT-rmGM5tNQB0eSU-Xd3PP_lfKf-cddmJAAcT58baduTXfKsraFiA6cvCq7ocT3NEIjijqISCdobvvG5s0Rl1knl7KzkeA9IIAkVgELgM6x5t4Iu-k1-OEpfMVHDj5aQ-Aid4dNz9Eq5S6F3MVEDYpKv-QnYpE6ziyRVYCtciYtX5PmzFNLO0gAmUrI-gNqUufB6M-bFMoIl7_GHbfX506rFuWjCvbxCayvKl53SxyFFO2wCKkPN1Y7kcfUGBjbJP8BQ', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'yKrKKlJ5LEKwRtyf6suSMg.1.1.1.411061122.1.1', 'X-Forwarded-For': '52.112.76.0', 'X-Forwarded-Host': '026a-171-76-86-206.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 00:28:22,908 - INFO - Received message body: {'text': 'Show Welcome', 'textFormat': 'plain', 'attachments': [{'contentType': 'text/html', 'content': '<p>Show Welcome</p>'}], 'type': 'message', 'timestamp': '2025-04-09T18:58:22.2977265Z', 'localTimestamp': '2025-04-10T00:28:22.2977265+05:30', 'id': '1744225102278', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 00:28:22,913 - INFO - Processing activity type: message
+2025-04-10 00:28:26,834 - ERROR - 
+ [on_turn_error]: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 1f7feba2-cd6b-496f-867f-8c73899a3b00 Correlation ID: c2f942d4-6b98-41f6-8321-1a159cc5346c Timestamp: 2025-04-09 18:58:26Z
+2025-04-10 00:28:26,858 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 174, in run_pipeline
+    return await self._middleware.receive_activity_with_status(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        context, callback
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 69, in receive_activity_with_status
+    return await self.receive_activity_internal(context, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 79, in receive_activity_internal
+    return await callback(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\activity_handler.py", line 70, in on_turn
+    await self.on_message_activity(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 32, in on_message_activity
+    await self._send_welcome_message(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 66, in _send_welcome_message
+    await turn_context.send_activity(
+        MessageFactory.attachment(CardFactory.hero_card(welcome_card))
+    )
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 1f7feba2-cd6b-496f-867f-8c73899a3b00 Correlation ID: c2f942d4-6b98-41f6-8321-1a159cc5346c Timestamp: 2025-04-09 18:58:26Z
+
+2025-04-10 00:28:28,507 - ERROR - Error processing message: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 5c120b7f-8ce1-4ffd-a5a6-ac0ca0565e00 Correlation ID: 96964f47-a61c-4b4e-88a1-94904a5e3509 Timestamp: 2025-04-09 18:58:28Z
+2025-04-10 00:28:28,517 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 174, in run_pipeline
+    return await self._middleware.receive_activity_with_status(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        context, callback
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 69, in receive_activity_with_status
+    return await self.receive_activity_internal(context, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 79, in receive_activity_internal
+    return await callback(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\activity_handler.py", line 70, in on_turn
+    await self.on_message_activity(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 32, in on_message_activity
+    await self._send_welcome_message(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 66, in _send_welcome_message
+    await turn_context.send_activity(
+        MessageFactory.attachment(CardFactory.hero_card(welcome_card))
+    )
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 1f7feba2-cd6b-496f-867f-8c73899a3b00 Correlation ID: c2f942d4-6b98-41f6-8321-1a159cc5346c Timestamp: 2025-04-09 18:58:26Z
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\app.py", line 70, in messages
+    response = await ADAPTER.process_activity(activity, auth_header, BOT.on_turn)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 445, in process_activity
+    return await self.process_activity_with_identity(activity, identity, logic)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 487, in process_activity_with_identity
+    await self.run_pipeline(context, logic)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 179, in run_pipeline
+    await self.on_turn_error(context, error)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\app.py", line 48, in on_error
+    await context.send_activity("The bot encountered an error or bug.")
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 5c120b7f-8ce1-4ffd-a5a6-ac0ca0565e00 Correlation ID: 96964f47-a61c-4b4e-88a1-94904a5e3509 Timestamp: 2025-04-09 18:58:28Z
+
+2025-04-10 00:28:28,520 - INFO - ::1 [10/Apr/2025:00:28:22 +0530] "POST /api/messages HTTP/1.1" 500 170 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 00:28:29,492 - INFO - Received incoming message request
+2025-04-10 00:28:29,493 - INFO - Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1104', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsIng1dCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0MjI1MTAyLA0KICAiZXhwIjogMTc0NDIyODcwMiwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.TUZSD7R_86m4yNZ5QZcUPY58DXGFRkMEn0nSsvL9Wx05RJnMT70tN9O176WaeoiWVPzcmWZXy-Ufjm89C7aT-rmGM5tNQB0eSU-Xd3PP_lfKf-cddmJAAcT58baduTXfKsraFiA6cvCq7ocT3NEIjijqISCdobvvG5s0Rl1knl7KzkeA9IIAkVgELgM6x5t4Iu-k1-OEpfMVHDj5aQ-Aid4dNz9Eq5S6F3MVEDYpKv-QnYpE6ziyRVYCtciYtX5PmzFNLO0gAmUrI-gNqUufB6M-bFMoIl7_GHbfX506rFuWjCvbxCayvKl53SxyFFO2wCKkPN1Y7kcfUGBjbJP8BQ', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'yKrKKlJ5LEKwRtyf6suSMg.1.1.1.411061122.1.1', 'X-Forwarded-For': '52.112.76.0', 'X-Forwarded-Host': '026a-171-76-86-206.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 00:28:29,494 - INFO - Received message body: {'text': 'Show Welcome', 'textFormat': 'plain', 'attachments': [{'contentType': 'text/html', 'content': '<p>Show Welcome</p>'}], 'type': 'message', 'timestamp': '2025-04-09T18:58:22.2977265Z', 'localTimestamp': '2025-04-10T00:28:22.2977265+05:30', 'id': '1744225102278', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 00:28:29,495 - INFO - Processing activity type: message
+2025-04-10 00:28:30,401 - ERROR - 
+ [on_turn_error]: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 5f96fe72-04d9-4900-ae1f-cbe344462900 Correlation ID: 6890d1db-bdc2-494d-add7-01ca7eb56488 Timestamp: 2025-04-09 18:58:30Z
+2025-04-10 00:28:30,405 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 174, in run_pipeline
+    return await self._middleware.receive_activity_with_status(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        context, callback
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 69, in receive_activity_with_status
+    return await self.receive_activity_internal(context, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 79, in receive_activity_internal
+    return await callback(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\activity_handler.py", line 70, in on_turn
+    await self.on_message_activity(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 32, in on_message_activity
+    await self._send_welcome_message(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 66, in _send_welcome_message
+    await turn_context.send_activity(
+        MessageFactory.attachment(CardFactory.hero_card(welcome_card))
+    )
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 5f96fe72-04d9-4900-ae1f-cbe344462900 Correlation ID: 6890d1db-bdc2-494d-add7-01ca7eb56488 Timestamp: 2025-04-09 18:58:30Z
+
+2025-04-10 00:28:31,148 - ERROR - Error processing message: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 5c120b7f-8ce1-4ffd-a5a6-ac0c4c575e00 Correlation ID: 5432fc85-f952-4ee7-b61a-41a4e98d1d68 Timestamp: 2025-04-09 18:58:31Z
+2025-04-10 00:28:31,156 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 174, in run_pipeline
+    return await self._middleware.receive_activity_with_status(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        context, callback
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 69, in receive_activity_with_status
+    return await self.receive_activity_internal(context, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 79, in receive_activity_internal
+    return await callback(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\activity_handler.py", line 70, in on_turn
+    await self.on_message_activity(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 32, in on_message_activity
+    await self._send_welcome_message(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 66, in _send_welcome_message
+    await turn_context.send_activity(
+        MessageFactory.attachment(CardFactory.hero_card(welcome_card))
+    )
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 5f96fe72-04d9-4900-ae1f-cbe344462900 Correlation ID: 6890d1db-bdc2-494d-add7-01ca7eb56488 Timestamp: 2025-04-09 18:58:30Z
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\app.py", line 70, in messages
+    response = await ADAPTER.process_activity(activity, auth_header, BOT.on_turn)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 445, in process_activity
+    return await self.process_activity_with_identity(activity, identity, logic)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 487, in process_activity_with_identity
+    await self.run_pipeline(context, logic)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 179, in run_pipeline
+    await self.on_turn_error(context, error)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\app.py", line 48, in on_error
+    await context.send_activity("The bot encountered an error or bug.")
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 5c120b7f-8ce1-4ffd-a5a6-ac0c4c575e00 Correlation ID: 5432fc85-f952-4ee7-b61a-41a4e98d1d68 Timestamp: 2025-04-09 18:58:31Z
+
+2025-04-10 00:28:31,159 - INFO - ::1 [10/Apr/2025:00:28:29 +0530] "POST /api/messages HTTP/1.1" 500 170 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 00:29:11,402 - INFO - ::1 [10/Apr/2025:00:29:11 +0530] "OPTIONS /api/messages HTTP/1.1" 405 205 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"
+2025-04-10 00:29:13,969 - INFO - ::1 [10/Apr/2025:00:29:13 +0530] "OPTIONS /api/messages HTTP/1.1" 405 205 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"
+2025-04-10 00:30:30,568 - INFO - Received incoming message request
+2025-04-10 00:30:30,569 - INFO - Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1104', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsIng1dCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0MjI1MjMwLA0KICAiZXhwIjogMTc0NDIyODgzMCwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.W5sdd_mNHFGIRKwf_L7FmEWI6vfqx6jtQgHAwOLGQoX5H2zJZWjWYQLAJUPhbUBkEJi4V2ky_Cugeem7PN13AinryrwknjUVRguhrywfbBXnEwKndopGO8GtYpFlrbWfZj9KAHfwus2E0qKUNg4KpahVUreSC2o6jcQlKlF8e6AC8RI1m6PXjn76d9q-hHSS7sHSWjXlAztYGadpumu9w5JiLFDzu73aLQ_YqUl0b46MHRxlK--4mhjABM3Qn_Ahgwm8PS4LAtYMckKjx8YB76uf7UP6jfbyiLr4_Gvxh2Dg2NXhQUOv1yjE5WJ3nopjfeB1uNAA_qt6y0hs-R53AQ', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'YF8ydcDd+ke+tElJDWp9xA.1.1.1.416040078.1.1', 'X-Forwarded-For': '52.112.106.2', 'X-Forwarded-Host': '026a-171-76-86-206.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 00:30:30,571 - INFO - Received message body: {'text': 'Show Welcome', 'textFormat': 'plain', 'attachments': [{'contentType': 'text/html', 'content': '<p>Show Welcome</p>'}], 'type': 'message', 'timestamp': '2025-04-09T19:00:30.1245899Z', 'localTimestamp': '2025-04-10T00:30:30.1245899+05:30', 'id': '1744225230097', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 00:30:30,572 - INFO - Processing activity type: message
+2025-04-10 00:30:31,833 - ERROR - 
+ [on_turn_error]: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 00f54814-7568-4bd5-ba72-675aa9783600 Correlation ID: 7bb1b06e-1d93-476a-b041-5a5cc00b8e3a Timestamp: 2025-04-09 19:00:31Z
+2025-04-10 00:30:31,843 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 174, in run_pipeline
+    return await self._middleware.receive_activity_with_status(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        context, callback
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 69, in receive_activity_with_status
+    return await self.receive_activity_internal(context, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 79, in receive_activity_internal
+    return await callback(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\activity_handler.py", line 70, in on_turn
+    await self.on_message_activity(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 32, in on_message_activity
+    await self._send_welcome_message(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 66, in _send_welcome_message
+    await turn_context.send_activity(
+        MessageFactory.attachment(CardFactory.hero_card(welcome_card))
+    )
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 00f54814-7568-4bd5-ba72-675aa9783600 Correlation ID: 7bb1b06e-1d93-476a-b041-5a5cc00b8e3a Timestamp: 2025-04-09 19:00:31Z
+
+2025-04-10 00:30:32,639 - ERROR - Error processing message: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 00f54814-7568-4bd5-ba72-675ac2783600 Correlation ID: 6c7d5cd9-6e87-4c36-8e81-1824aab3717d Timestamp: 2025-04-09 19:00:32Z
+2025-04-10 00:30:32,652 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 174, in run_pipeline
+    return await self._middleware.receive_activity_with_status(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        context, callback
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 69, in receive_activity_with_status
+    return await self.receive_activity_internal(context, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 79, in receive_activity_internal
+    return await callback(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\activity_handler.py", line 70, in on_turn
+    await self.on_message_activity(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 32, in on_message_activity
+    await self._send_welcome_message(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 66, in _send_welcome_message
+    await turn_context.send_activity(
+        MessageFactory.attachment(CardFactory.hero_card(welcome_card))
+    )
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 00f54814-7568-4bd5-ba72-675aa9783600 Correlation ID: 7bb1b06e-1d93-476a-b041-5a5cc00b8e3a Timestamp: 2025-04-09 19:00:31Z
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\app.py", line 70, in messages
+    response = await ADAPTER.process_activity(activity, auth_header, BOT.on_turn)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 445, in process_activity
+    return await self.process_activity_with_identity(activity, identity, logic)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 487, in process_activity_with_identity
+    await self.run_pipeline(context, logic)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 179, in run_pipeline
+    await self.on_turn_error(context, error)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\app.py", line 48, in on_error
+    await context.send_activity("The bot encountered an error or bug.")
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 00f54814-7568-4bd5-ba72-675ac2783600 Correlation ID: 6c7d5cd9-6e87-4c36-8e81-1824aab3717d Timestamp: 2025-04-09 19:00:32Z
+
+2025-04-10 00:30:32,661 - INFO - ::1 [10/Apr/2025:00:30:30 +0530] "POST /api/messages HTTP/1.1" 500 170 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 00:30:33,326 - INFO - Received incoming message request
+2025-04-10 00:30:33,327 - INFO - Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1104', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsIng1dCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0MjI1MjMwLA0KICAiZXhwIjogMTc0NDIyODgzMCwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.W5sdd_mNHFGIRKwf_L7FmEWI6vfqx6jtQgHAwOLGQoX5H2zJZWjWYQLAJUPhbUBkEJi4V2ky_Cugeem7PN13AinryrwknjUVRguhrywfbBXnEwKndopGO8GtYpFlrbWfZj9KAHfwus2E0qKUNg4KpahVUreSC2o6jcQlKlF8e6AC8RI1m6PXjn76d9q-hHSS7sHSWjXlAztYGadpumu9w5JiLFDzu73aLQ_YqUl0b46MHRxlK--4mhjABM3Qn_Ahgwm8PS4LAtYMckKjx8YB76uf7UP6jfbyiLr4_Gvxh2Dg2NXhQUOv1yjE5WJ3nopjfeB1uNAA_qt6y0hs-R53AQ', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'YF8ydcDd+ke+tElJDWp9xA.1.1.1.416040078.1.1', 'X-Forwarded-For': '52.112.106.2', 'X-Forwarded-Host': '026a-171-76-86-206.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 00:30:33,328 - INFO - Received message body: {'text': 'Show Welcome', 'textFormat': 'plain', 'attachments': [{'contentType': 'text/html', 'content': '<p>Show Welcome</p>'}], 'type': 'message', 'timestamp': '2025-04-09T19:00:30.1245899Z', 'localTimestamp': '2025-04-10T00:30:30.1245899+05:30', 'id': '1744225230097', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 00:30:33,330 - INFO - Processing activity type: message
+2025-04-10 00:30:34,258 - ERROR - 
+ [on_turn_error]: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 5c120b7f-8ce1-4ffd-a5a6-ac0cca715e00 Correlation ID: af7a0513-2048-4c11-9794-71da7d911b89 Timestamp: 2025-04-09 19:00:34Z
+2025-04-10 00:30:34,267 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 174, in run_pipeline
+    return await self._middleware.receive_activity_with_status(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        context, callback
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 69, in receive_activity_with_status
+    return await self.receive_activity_internal(context, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 79, in receive_activity_internal
+    return await callback(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\activity_handler.py", line 70, in on_turn
+    await self.on_message_activity(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 32, in on_message_activity
+    await self._send_welcome_message(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 66, in _send_welcome_message
+    await turn_context.send_activity(
+        MessageFactory.attachment(CardFactory.hero_card(welcome_card))
+    )
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 5c120b7f-8ce1-4ffd-a5a6-ac0cca715e00 Correlation ID: af7a0513-2048-4c11-9794-71da7d911b89 Timestamp: 2025-04-09 19:00:34Z
+
+2025-04-10 00:30:34,934 - ERROR - Error processing message: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 00f54814-7568-4bd5-ba72-675a0b793600 Correlation ID: 9b438b39-8ae1-4369-ab15-3075f0a7e3bc Timestamp: 2025-04-09 19:00:35Z
+2025-04-10 00:30:34,947 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 174, in run_pipeline
+    return await self._middleware.receive_activity_with_status(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        context, callback
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 69, in receive_activity_with_status
+    return await self.receive_activity_internal(context, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\middleware_set.py", line 79, in receive_activity_internal
+    return await callback(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\activity_handler.py", line 70, in on_turn
+    await self.on_message_activity(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 32, in on_message_activity
+    await self._send_welcome_message(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\bots\teams_conversation_bot.py", line 66, in _send_welcome_message
+    await turn_context.send_activity(
+        MessageFactory.attachment(CardFactory.hero_card(welcome_card))
+    )
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 5c120b7f-8ce1-4ffd-a5a6-ac0cca715e00 Correlation ID: af7a0513-2048-4c11-9794-71da7d911b89 Timestamp: 2025-04-09 19:00:34Z
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\app.py", line 70, in messages
+    response = await ADAPTER.process_activity(activity, auth_header, BOT.on_turn)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 445, in process_activity
+    return await self.process_activity_with_identity(activity, identity, logic)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 487, in process_activity_with_identity
+    await self.run_pipeline(context, logic)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_adapter.py", line 179, in run_pipeline
+    await self.on_turn_error(context, error)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\app.py", line 48, in on_error
+    await context.send_activity("The bot encountered an error or bug.")
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 174, in send_activity
+    result = await self.send_activities([activity_or_text])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 226, in send_activities
+    return await self._emit(self._on_send_activities, output, logic())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 304, in _emit
+    return await logic
+           ^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\turn_context.py", line 221, in logic
+    responses = await self.adapter.send_activities(self, output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 728, in send_activities
+    raise error
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botbuilder\core\bot_framework_adapter.py", line 713, in send_activities
+    response = await client.conversations.reply_to_activity(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        activity.conversation.id, activity.reply_to_id, activity
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\aio\operations_async\_conversations_operations_async.py", line 524, in reply_to_activity
+    response = await self._client.async_send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request, stream=False, **operation_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\async_client.py", line 115, in async_send
+    pipeline_response = await self.config.pipeline.run(request, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 159, in run
+    return await first_node.send(pipeline_request, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_abc.py", line 79, in send
+    response = await self.next.send(request, **kwargs)  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\msrest\pipeline\async_requests.py", line 99, in send
+    self._creds.signed_session(session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\app_credentials.py", line 92, in signed_session
+    auth_token = self.get_access_token()
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\sample\env\Lib\site-packages\botframework\connector\auth\microsoft_app_credentials.py", line 63, in get_access_token
+    raise PermissionError(
+        f"Failed to get access token with error: {error}, error_description: {error_description}"
+    )
+PermissionError: Failed to get access token with error: invalid_client, error_description: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '4f9ae219-bc03-4211-9c2a-f1d61ae6f84a'. Trace ID: 00f54814-7568-4bd5-ba72-675a0b793600 Correlation ID: 9b438b39-8ae1-4369-ab15-3075f0a7e3bc Timestamp: 2025-04-09 19:00:35Z
+
+2025-04-10 00:30:34,950 - INFO - ::1 [10/Apr/2025:00:30:33 +0530] "POST /api/messages HTTP/1.1" 500 170 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 00:31:04,218 - INFO - Initializing bot configuration...
+2025-04-10 00:31:04,218 - INFO - App ID: 4f9ae219-bc03-4211-9c2a-f1d61ae6f84a
+2025-04-10 00:31:04,219 - INFO - Port: 3978
+2025-04-10 00:31:04,219 - INFO - Starting web server on port 3978
+2025-04-10 00:31:13,356 - INFO - Received incoming message request
+2025-04-10 00:31:13,357 - INFO - Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1104', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsIng1dCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0MjI1MjczLA0KICAiZXhwIjogMTc0NDIyODg3MywNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.lAnJRdSYoer0sWWM3HbpwfcwGlxLU97uHSHHkAmK6geioZfenLly7OYZHPBYIPyokvAf_05TTvCw6aAvS9_L5vn371tmmyuUpIYYb0pITAlvxCriRaWRP6I9JYEf8unZhTLgr4urVldEETLT43oVOZlCCZlBVwjd5wJcf43IycIP8TBJwu_E8ga0rt9QYe1Z6QBEmRhxuOsVx49KYVNGxlccd3H_cOta5EnH23wV6h5FldmKwvFE6MI4tSI-mUrVEshcvdX8Y-DCk9Yo4j0Xnyf7ehAlFHS9sWXLtJmMgOrSyZ9o58rWTqF5BNdlPZmP1FfkiVTpHR6tJ5VCYLjbSQ', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'Ngfni0hzUEWE9M3y/yVUsw.1.1.1.417668205.1.1', 'X-Forwarded-For': '52.112.76.0', 'X-Forwarded-Host': '026a-171-76-86-206.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 00:31:13,360 - INFO - Received message body: {'text': 'Show Welcome', 'textFormat': 'plain', 'attachments': [{'contentType': 'text/html', 'content': '<p>Show Welcome</p>'}], 'type': 'message', 'timestamp': '2025-04-09T19:01:12.9288775Z', 'localTimestamp': '2025-04-10T00:31:12.9288775+05:30', 'id': '1744225272912', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 00:31:13,367 - INFO - Processing activity type: message
+2025-04-10 00:31:19,032 - INFO - No response to send
+2025-04-10 00:31:19,033 - INFO - ::1 [10/Apr/2025:00:31:13 +0530] "POST /api/messages HTTP/1.1" 200 151 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 00:31:36,123 - INFO - Received incoming message request
+2025-04-10 00:31:36,124 - INFO - Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1161', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsIng1dCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0MjI1Mjk1LA0KICAiZXhwIjogMTc0NDIyODg5NSwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.DM0nDrUl0eSzd5vUYfFxSm9jWIj6BGB8RL-GLeBqYnUDyDFV6B8FYAGrrP74nXYM7HlyLKvMIRcVMhbBttzpsR6PoJto-zTeOmI2Si_lydpHgp4qAS0hB1bzlrGYUpomtUUg_TDluMn2pQ9P3IxDeRfWN7JOZe2BrTX0KlnZyTwcU6FeKW2Y9XIxBuJckM8_ChcMLrV9jau708_ezH1C6tIA-XmI5DlfaPyr5HkJ_20E90fPDWDQnefvmLyNduBravw6h4awQE9Miwev2_E3s0IjVV1OGiDl7e9cmAQRx8V3dqvNftufpz1JGQzJP67sYZsoq5cce9EI2xs3HDfClw', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'oiJ1q/qDZUOmFVdAtBo2rQ.1.3', 'X-Forwarded-For': '52.112.76.0', 'X-Forwarded-Host': '026a-171-76-86-206.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 00:31:36,125 - INFO - Received message body: {'text': 'mention me', 'type': 'message', 'timestamp': '2025-04-09T19:01:35.553Z', 'localTimestamp': '2025-04-10T00:31:35.553+05:30', 'id': 'f:2ed87bed-09a9-6d97-0cab-fe8b6a6d5c20', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}, 'source': {'name': 'message'}, 'legacy': {'replyToId': '1:1V4ov6qGiczBMIif9Jtk-d4QKPOl3QU8Lmy3VJknQDA8'}}, 'replyToId': '1744225279039', 'value': {}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 00:31:36,126 - INFO - Processing activity type: message
+2025-04-10 00:31:36,849 - INFO - No response to send
+2025-04-10 00:31:36,851 - INFO - ::1 [10/Apr/2025:00:31:36 +0530] "POST /api/messages HTTP/1.1" 200 151 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"

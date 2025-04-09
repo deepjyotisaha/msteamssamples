@@ -1,0 +1,65 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.14",
+    "version": "1.0.0",
+    "id": "4f9ae219-bc03-4211-9c2a-f1d61ae6f84a",
+    "packageName": "com.microsoft.teams.conversationbot",
+    "developer": {
+        "name": "Microsoft",
+        "websiteUrl": "https://www.microsoft.com",
+        "privacyUrl": "https://www.microsoft.com/privacy",
+        "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
+    },
+    "name": {
+        "short": "Conversation Bot",
+        "full": "Teams Conversation Bot"
+    },
+    "description": {
+        "short": "Bot for demonstrating conversations in Teams",
+        "full": "This sample demonstrates different types of conversations and messaging capabilities in Microsoft Teams"
+    },
+    "icons": {
+        "outline": "outline.png",
+        "color": "color.png"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "4f9ae219-bc03-4211-9c2a-f1d61ae6f84a",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false,
+            "commandLists": [
+                {
+                    "scopes": [
+                        "personal",
+                        "team",
+                        "groupchat"
+                    ],
+                    "commands": [
+                        {
+                            "title": "Show Welcome",
+                            "description": "Shows welcome card with options"
+                        },
+                        {
+                            "title": "Mention Me",
+                            "description": "Mentions you in a message"
+                        },
+                        {
+                            "title": "Message All Members",
+                            "description": "Sends a 1:1 message to all members"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "permissions": [
+        "messageTeamMembers"
+    ],
+    "validDomains": []
+} 
