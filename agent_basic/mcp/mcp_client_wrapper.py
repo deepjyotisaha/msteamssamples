@@ -11,6 +11,8 @@ from dotenv import load_dotenv
 # In mcp_client_wrapper.py
 from config import Config
 import traceback  # Add this for better error reporting
+from botbuilder.schema import Activity, ActivityTypes, HeroCard
+from botbuilder.core import CardFactory
 
 
 class ExecutionHistory:
@@ -29,6 +31,11 @@ class MCPClientWrapper:
         self.logger = logging.getLogger(__name__)
         self.model = None
         self.execution_history = ExecutionHistory()
+        self.message_queue = asyncio.Queue()
+        self.is_running = False
+        self.current_task = None
+        self.update_interval = 2  # seconds
+        self.max_iterations = Config.MAX_ITERATIONS
         
         # Configure logging
         logging.basicConfig(
@@ -150,6 +157,10 @@ class MCPClientWrapper:
             # Create tools description for LLM
             await self._create_tools_description()
             
+            # Start the event loop only after successful initialization
+            self.is_running = True
+            # Create the processing loop task
+            self.processing_task = asyncio.create_task(self.start_processing_loop())
             return True
             
         except Exception as e:
@@ -255,3 +266,141 @@ class MCPClientWrapper:
         except Exception as e:
             self.logger.error(f"Error executing command {command_name}: {str(e)}")
             return f"Error: {str(e)}"
+
+    async def start_processing_loop(self):
+        """Main event loop for processing messages"""
+        self.logger.info("Starting message processing loop...")
+        while self.is_running:
+            try:
+                # Wait for next message
+                self.logger.info("Waiting for next message...")
+                task_data = await self.message_queue.get()
+                
+                # Process the task with iterations
+                await self._process_task_with_iterations(task_data)
+                
+                # Mark task as complete
+                self.message_queue.task_done()
+                
+            except Exception as e:
+                self.logger.error(f"Error in processing loop: {str(e)}")
+                continue
+
+    async def _process_task_with_iterations(self, task_data):
+        """Process task with iteration loop and updates"""
+        query = task_data['query']
+        turn_context = task_data['turn_context']
+        iteration = 0
+        
+        try:
+            # Reset execution history for new task
+            self.execution_history = ExecutionHistory()
+            self.execution_history.user_query = query
+            
+            # Send initial status
+            await self._send_status_update(
+                turn_context,
+                "Starting task processing...",
+                is_initial=True
+            )
+            
+            while iteration < self.max_iterations:
+                self.logger.info(f"Processing iteration {iteration + 1}/{self.max_iterations}")
+                
+                # Create system prompt for this iteration
+                system_prompt = Config.SYSTEM_PROMPT.format(
+                    tools_description=self.execution_history.tools_description,
+                    execution_history=self.execution_history
+                )
+                
+                # Generate and execute plan for this iteration
+                plan_response = await self.generate_with_timeout(system_prompt)
+                self.execution_history.plan = plan_response.text
+                
+                # Send status update about plan
+                await self._send_status_update(
+                    turn_context,
+                    f"Iteration {iteration + 1}: Generated plan",
+                    include_plan=True
+                )
+                
+                # Execute tools for this iteration
+                execution_response = await self.generate_with_timeout(
+                    f"{system_prompt}\n\nPlan: {self.execution_history.plan}\n\nExecute the plan:"
+                )
+                
+                tool_calls = self._parse_tool_calls(execution_response.text)
+                for tool_call in tool_calls:
+                    # Execute tool and record result
+                    result = await self.execute_command(
+                        tool_call['name'], 
+                        tool_call['params']
+                    )
+                    self.execution_history.steps.append({
+                        'iteration': iteration + 1,
+                        'tool': tool_call['name'],
+                        'params': tool_call['params'],
+                        'result': result
+                    })
+                    
+                    # Send status update after each tool execution
+                    await self._send_status_update(
+                        turn_context,
+                        f"Iteration {iteration + 1}: Executed {tool_call['name']}",
+                        include_steps=True
+                    )
+                
+                # Check if task is complete
+                if await self._is_task_complete():
+                    await self._send_final_update(turn_context)
+                    break
+                
+                iteration += 1
+                await asyncio.sleep(self.update_interval)
+            
+        except Exception as e:
+            self.logger.error(f"Error processing task: {str(e)}")
+            await self._send_error_update(turn_context, str(e))
+
+    async def _send_status_update(self, turn_context, status, 
+                                is_initial=False, include_plan=False, 
+                                include_steps=False):
+        """Send comprehensive status update"""
+        text = [status]
+        
+        if include_plan and self.execution_history.plan:
+            text.append(f"\nCurrent Plan:\n{self.execution_history.plan}")
+            
+        if include_steps and self.execution_history.steps:
+            text.append("\nExecuted Steps:")
+            for step in self.execution_history.steps:
+                text.append(f"- Iteration {step['iteration']}: {step['tool']} → {step['result']}")
+        
+        card = HeroCard(
+            title="🤖 Agent Processing" if not is_initial else "🚀 Starting Processing",
+            subtitle=status,
+            text="\n".join(text)
+        )
+        
+        await turn_context.send_activity(
+            Activity(
+                type=ActivityTypes.message,
+                attachments=[CardFactory.hero_card(card)]
+            )
+        )
+
+    async def _is_task_complete(self):
+        """Check if task is complete based on execution history"""
+        # Implement your task completion logic here
+        # For example, check if final answer is achieved
+        return False  # Placeholder
+
+    async def _send_final_update(self, turn_context):
+        """Send final update after task completion"""
+        # Implement final update logic here
+        pass
+
+    async def _send_error_update(self, turn_context, error_message):
+        """Send error update after task failure"""
+        # Implement error update logic here
+        pass

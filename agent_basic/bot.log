@@ -1,27 +1,27 @@
-2025-04-10 14:07:55,859 - INFO -             <module>() Initializing bot configuration...
-2025-04-10 14:07:55,860 - INFO -             <module>() App ID: 4f9ae219-bc03-4211-9c2a-f1d61ae6f84a
-2025-04-10 14:07:55,860 - INFO -             <module>() Port: 3978
-2025-04-10 14:07:55,860 - INFO -             <module>() Starting web server on port 3978
-2025-04-10 14:07:55,861 - DEBUG -             __init__() Using proactor: IocpProactor
-2025-04-10 14:08:09,179 - INFO -             messages() Received incoming message request
-2025-04-10 14:08:09,180 - INFO -             messages() Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1100', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsIng1dCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0Mjc0Mjg3LA0KICAiZXhwIjogMTc0NDI3Nzg4NywNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.DlXArOVaBVkLUMRDTJoGSMnL34RUqAvu7iBhs3Wo9-qrquB5yoJpdoyoxZYSbt0qX6dUYJ0StBUetPiLltEBM6LZNpEdZEfwiY_gQZo0YY54aTUTuj5hDbIQFitx4MWX01gfJQAHZ-zC2QhK_K8MlMB13zgSt8YRQVxrjqisHTP7VTYSwlgiijRxH6ch4Hg4vUYo7ewWLWskvRhbweJcUjxJJNL0UAwlFPYSrKcR7EqWEv-kVMa2mdZ2kMxFtBwcvxFhM8j5bV5f2ti5QyVHY01Is5MKZxyd9XQd-s7EOZuLMagZCGk46XlhtcaTlnybL3Rg23fStj7FPzIdr6YL-A', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': '/Rd17UJj00OTRjKdcLLnqA.1.1.1.184813953.1.1', 'X-Forwarded-For': '52.112.76.0', 'X-Forwarded-Host': '06c7-171-76-86-50.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
-2025-04-10 14:08:09,180 - INFO -             messages() Received message body: {'text': 'Show Welcome', 'textFormat': 'plain', 'attachments': [{'contentType': 'text/html', 'content': '<p>Show Welcome</p>'}], 'type': 'message', 'timestamp': '2025-04-10T08:38:07.79689Z', 'localTimestamp': '2025-04-10T14:08:07.79689+05:30', 'id': '1744274287777', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
-2025-04-10 14:08:09,184 - INFO -             messages() Processing activity type: message
-2025-04-10 14:08:09,187 - DEBUG -            _new_conn() Starting new HTTPS connection (1): login.botframework.com:443
-2025-04-10 14:08:09,421 - DEBUG -        _make_request() https://login.botframework.com:443 "GET /v1/.well-known/openidconfiguration HTTP/1.1" 200 316
-2025-04-10 14:08:09,423 - DEBUG -            _new_conn() Starting new HTTPS connection (1): login.botframework.com:443
-2025-04-10 14:08:09,558 - DEBUG -        _make_request() https://login.botframework.com:443 "GET /v1/.well-known/keys HTTP/1.1" 200 None
-2025-04-10 14:08:10,006 - DEBUG -             __call__() Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
-2025-04-10 14:08:10,009 - DEBUG -             from_int() Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
-2025-04-10 14:08:10,010 - DEBUG -             __init__() Initializing with Entra authority: https://login.microsoftonline.com/botframework.com
-2025-04-10 14:08:10,011 - DEBUG -            _new_conn() Starting new HTTPS connection (1): login.microsoftonline.com:443
-2025-04-10 14:08:10,387 - DEBUG -        _make_request() https://login.microsoftonline.com:443 "GET /botframework.com/v2.0/.well-known/openid-configuration HTTP/1.1" 200 1753
-2025-04-10 14:08:10,388 - DEBUG -             __init__() openid_config("https://login.microsoftonline.com/botframework.com/v2.0/.well-known/openid-configuration") = {'token_endpoint': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/oauth2/v2.0/token', 'token_endpoint_auth_methods_supported': ['client_secret_post', 'private_key_jwt', 'client_secret_basic'], 'jwks_uri': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/discovery/v2.0/keys', 'response_modes_supported': ['query', 'fragment', 'form_post'], 'subject_types_supported': ['pairwise'], 'id_token_signing_alg_values_supported': ['RS256'], 'response_types_supported': ['code', 'id_token', 'code id_token', 'id_token token'], 'scopes_supported': ['openid', 'profile', 'email', 'offline_access'], 'issuer': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/v2.0', 'request_uri_parameter_supported': False, 'userinfo_endpoint': 'https://graph.microsoft.com/oidc/userinfo', 'authorization_endpoint': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/oauth2/v2.0/authorize', 'device_authorization_endpoint': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/oauth2/v2.0/devicecode', 'http_logout_supported': True, 'frontchannel_logout_supported': True, 'end_session_endpoint': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/oauth2/v2.0/logout', 'claims_supported': ['sub', 'iss', 'cloud_instance_name', 'cloud_instance_host_name', 'cloud_graph_host_name', 'msgraph_host', 'aud', 'exp', 'iat', 'auth_time', 'acr', 'nonce', 'preferred_username', 'name', 'tid', 'ver', 'at_hash', 'c_hash', 'email'], 'kerberos_endpoint': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/kerberos', 'tenant_region_scope': 'NA', 'cloud_instance_name': 'microsoftonline.com', 'cloud_graph_host_name': 'graph.windows.net', 'msgraph_host': 'graph.microsoft.com', 'rbac_url': 'https://pas.windows.net'}
-2025-04-10 14:08:10,389 - DEBUG -       _decide_broker() Broker enabled? None
-2025-04-10 14:08:10,390 - DEBUG - _get_regional_authority() Region to be used: None
-2025-04-10 14:08:10,392 - DEBUG -             __init__() Generate or reuse correlation_id: 7fd0c1a4-7d7f-4f5a-b0c1-eaf811555002
-2025-04-10 14:08:11,227 - DEBUG -        _make_request() https://login.microsoftonline.com:443 "POST /d6d49420-f39b-4df7-a1dc-d59a935871db/oauth2/v2.0/token HTTP/1.1" 200 1269
-2025-04-10 14:08:11,230 - DEBUG -                  add() event={
+2025-04-10 14:51:10,290 - INFO -             <module>() Initializing bot configuration...
+2025-04-10 14:51:10,290 - INFO -             <module>() App ID: 4f9ae219-bc03-4211-9c2a-f1d61ae6f84a
+2025-04-10 14:51:10,291 - INFO -             <module>() Port: 3978
+2025-04-10 14:51:10,291 - INFO -             <module>() Starting web server on port 3978
+2025-04-10 14:51:10,291 - DEBUG -             __init__() Using proactor: IocpProactor
+2025-04-10 14:51:35,172 - INFO -             messages() Received incoming message request
+2025-04-10 14:51:35,173 - INFO -             messages() Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1104', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsIng1dCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0Mjc2ODk0LA0KICAiZXhwIjogMTc0NDI4MDQ5NCwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.LkyK2Bh9b3i2nfpWNHWq0zBUDxtR016PsORaeX0DLHwGd-vFpP49v57_yEBvrOfHshKAaH7itFgaLw0NYNSfiguccOF0zgGn09yde7t-C3Dof5LrCJMpusov6glht7qQZ059MY8985315B8zmgKi3ha6dG9sv53Qo43ckSgW9UvxYNnWH7Nl6gcJpLuBruVyV45PR1eFdNxeTdX4b134kqFAG3nmkktz8cBMqslvX_48JwlSDMVK0MJEwSd2lCbTt5LfNxBCcGATzOXF4tJAdPHbDgxLfSUuuk1n6j6QW8SF81fC8umWRoSnbNZtpTcsnKBXwh-OicYXC19FpX92NA', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'W/W/SQ/YLk2Uw6tS+BHVgA.1.1.1.286705051.1.1', 'X-Forwarded-For': '52.112.76.0', 'X-Forwarded-Host': '06c7-171-76-86-50.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 14:51:35,174 - INFO -             messages() Received message body: {'text': 'Show Welcome', 'textFormat': 'plain', 'attachments': [{'contentType': 'text/html', 'content': '<p>Show Welcome</p>'}], 'type': 'message', 'timestamp': '2025-04-10T09:21:33.9079696Z', 'localTimestamp': '2025-04-10T14:51:33.9079696+05:30', 'id': '1744276893885', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 14:51:35,178 - INFO -             messages() Processing activity type: message
+2025-04-10 14:51:35,182 - DEBUG -            _new_conn() Starting new HTTPS connection (1): login.botframework.com:443
+2025-04-10 14:51:35,391 - DEBUG -        _make_request() https://login.botframework.com:443 "GET /v1/.well-known/openidconfiguration HTTP/1.1" 200 316
+2025-04-10 14:51:35,395 - DEBUG -            _new_conn() Starting new HTTPS connection (1): login.botframework.com:443
+2025-04-10 14:51:35,586 - DEBUG -        _make_request() https://login.botframework.com:443 "GET /v1/.well-known/keys HTTP/1.1" 200 None
+2025-04-10 14:51:36,196 - DEBUG -             __call__() Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+2025-04-10 14:51:36,198 - DEBUG -             from_int() Converted retries value: 1 -> Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2025-04-10 14:51:36,199 - DEBUG -             __init__() Initializing with Entra authority: https://login.microsoftonline.com/botframework.com
+2025-04-10 14:51:36,201 - DEBUG -            _new_conn() Starting new HTTPS connection (1): login.microsoftonline.com:443
+2025-04-10 14:51:36,586 - DEBUG -        _make_request() https://login.microsoftonline.com:443 "GET /botframework.com/v2.0/.well-known/openid-configuration HTTP/1.1" 200 1753
+2025-04-10 14:51:36,588 - DEBUG -             __init__() openid_config("https://login.microsoftonline.com/botframework.com/v2.0/.well-known/openid-configuration") = {'token_endpoint': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/oauth2/v2.0/token', 'token_endpoint_auth_methods_supported': ['client_secret_post', 'private_key_jwt', 'client_secret_basic'], 'jwks_uri': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/discovery/v2.0/keys', 'response_modes_supported': ['query', 'fragment', 'form_post'], 'subject_types_supported': ['pairwise'], 'id_token_signing_alg_values_supported': ['RS256'], 'response_types_supported': ['code', 'id_token', 'code id_token', 'id_token token'], 'scopes_supported': ['openid', 'profile', 'email', 'offline_access'], 'issuer': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/v2.0', 'request_uri_parameter_supported': False, 'userinfo_endpoint': 'https://graph.microsoft.com/oidc/userinfo', 'authorization_endpoint': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/oauth2/v2.0/authorize', 'device_authorization_endpoint': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/oauth2/v2.0/devicecode', 'http_logout_supported': True, 'frontchannel_logout_supported': True, 'end_session_endpoint': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/oauth2/v2.0/logout', 'claims_supported': ['sub', 'iss', 'cloud_instance_name', 'cloud_instance_host_name', 'cloud_graph_host_name', 'msgraph_host', 'aud', 'exp', 'iat', 'auth_time', 'acr', 'nonce', 'preferred_username', 'name', 'tid', 'ver', 'at_hash', 'c_hash', 'email'], 'kerberos_endpoint': 'https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/kerberos', 'tenant_region_scope': 'NA', 'cloud_instance_name': 'microsoftonline.com', 'cloud_graph_host_name': 'graph.windows.net', 'msgraph_host': 'graph.microsoft.com', 'rbac_url': 'https://pas.windows.net'}
+2025-04-10 14:51:36,589 - DEBUG -       _decide_broker() Broker enabled? None
+2025-04-10 14:51:36,590 - DEBUG - _get_regional_authority() Region to be used: None
+2025-04-10 14:51:36,592 - DEBUG -             __init__() Generate or reuse correlation_id: 0ee8b22a-a9c1-4e9e-8bcb-55bce8bc5765
+2025-04-10 14:51:37,567 - DEBUG -        _make_request() https://login.microsoftonline.com:443 "POST /d6d49420-f39b-4df7-a1dc-d59a935871db/oauth2/v2.0/token HTTP/1.1" 200 1270
+2025-04-10 14:51:37,569 - DEBUG -                  add() event={
     "client_id": "4f9ae219-bc03-4211-9c2a-f1d61ae6f84a",
     "data": {
         "claims": null,
@@ -44,116 +44,271 @@
     ],
     "token_endpoint": "https://login.microsoftonline.com/d6d49420-f39b-4df7-a1dc-d59a935871db/oauth2/v2.0/token"
 }
-2025-04-10 14:08:11,231 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
-2025-04-10 14:08:11,232 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
-2025-04-10 14:08:11,232 - DEBUG -             __call__() Configuring proxies: ''
-2025-04-10 14:08:11,233 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
-2025-04-10 14:08:11,235 - DEBUG -            _new_conn() Starting new HTTPS connection (1): smba.trafficmanager.net:443
-2025-04-10 14:08:11,941 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/1744274287777 HTTP/1.1" 201 22
-2025-04-10 14:08:11,943 - INFO -             messages() No response to send
-2025-04-10 14:08:11,944 - INFO -                  log() ::1 [10/Apr/2025:14:08:09 +0530] "POST /api/messages HTTP/1.1" 200 112 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
-2025-04-10 14:08:16,257 - INFO -             messages() Received incoming message request
-2025-04-10 14:08:16,258 - INFO -             messages() Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1169', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsIng1dCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0Mjc0Mjk1LA0KICAiZXhwIjogMTc0NDI3Nzg5NSwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.oGiGxH1yvb4Qb7pUV0MnWMjLZ5sbDGQ3xpzWLRhIcALZlcJQ3boIzgzOkafbEmpUQUhYAFuyj28VEXIAJCq5Txm6V-b8cFOfnWf_Gsl69dJ3m_Xu39BPAVPUmKuhHPZeghjg5v67HtGOl55unO5BCohqhujOZXuJi49L2ylbF-weZ5fu0MOylUNB0iWbNybtPJpO_tnBx_CvIT5tziD9jKpUjlL0VHbchRUvtlAcEFl4lC_yAzinZdfmsDzfTIEz2a2Ge5SHO5y5eEFevUaxMUWc8bJSpN6Fvvghyf_r2aZqvR-8CgX2EnLwxJEilmekW5N_VnjsBtBeRxM-KUn_IA', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'vzWMuoEvf0GH4Yw9qB1IRw.1.3', 'X-Forwarded-For': '52.112.106.2', 'X-Forwarded-Host': '06c7-171-76-86-50.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
-2025-04-10 14:08:16,258 - INFO -             messages() Received message body: {'text': 'initiate mcp routine', 'type': 'message', 'timestamp': '2025-04-10T08:38:14.57Z', 'localTimestamp': '2025-04-10T14:08:14.57+05:30', 'id': 'f:2bff4c52-1cb1-772f-c550-97f4999e9e7e', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}, 'source': {'name': 'message'}, 'legacy': {'replyToId': '1:19OADEeI034ntPeJg5Bbd8FVHve-8qn5Vp_61XGyCjBg'}}, 'replyToId': '1744274290947', 'value': {}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
-2025-04-10 14:08:16,259 - INFO -             messages() Processing activity type: message
-2025-04-10 14:08:16,260 - INFO - _initiate_mcp_routine() === Starting _initiate_mcp_routine ===
-2025-04-10 14:08:16,260 - INFO - _initiate_mcp_routine() Creating new MCPClientWrapper instance...
-2025-04-10 14:08:16,263 - INFO -      _initialize_llm() Configuring Gemini API...
-2025-04-10 14:08:16,264 - INFO -      _initialize_llm() Gemini API configured successfully
-2025-04-10 14:08:16,264 - INFO - _initiate_mcp_routine() Initializing MCP client...
-2025-04-10 14:08:16,265 - INFO -           initialize() Establishing connection to MCP servers...
-2025-04-10 14:08:16,266 - DEBUG -           initialize() Math server params: StdioServerParameters(command='python', args=['mcp/mcp_server.py'])
-2025-04-10 14:08:16,266 - DEBUG -           initialize() Gmail server params: StdioServerParameters(command='python', args=['mcp/gmail-mcp-server/src/gmail/server.py', '--creds-file-path=.google/client_creds.json', '--token-path=.google/app_tokens.json'])
-2025-04-10 14:08:16,284 - INFO -           initialize() Connections established, creating sessions...
-2025-04-10 14:08:16,285 - DEBUG -           initialize() Initializing math session...
-2025-04-10 14:08:16,285 - DEBUG -           initialize() Initializing gmail session...
-2025-04-10 14:08:16,286 - DEBUG -           initialize() Fetching tools from math server...
-2025-04-10 14:08:16,286 - DEBUG -           initialize() Math tools result: {'tools': []}
-2025-04-10 14:08:16,286 - DEBUG -           initialize() Math tools: []
-2025-04-10 14:08:16,287 - DEBUG -           initialize() Fetching tools from gmail server...
-2025-04-10 14:08:16,287 - DEBUG -           initialize() Gmail tools result: {'tools': []}
-2025-04-10 14:08:16,288 - DEBUG -           initialize() Gmail tools: []
-2025-04-10 14:08:16,288 - DEBUG -           initialize() Combined tools: []
-2025-04-10 14:08:16,288 - DEBUG - _initiate_mcp_routine() MCP client initialization result: True
-2025-04-10 14:08:16,289 - INFO - _initiate_mcp_routine() Creating initial processing card...
-2025-04-10 14:08:16,289 - DEBUG - _initiate_mcp_routine() Creating initial activity message
-2025-04-10 14:08:16,290 - INFO - _initiate_mcp_routine() Sending initial activity...
-2025-04-10 14:08:16,291 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
-2025-04-10 14:08:16,291 - DEBUG -             __init__() Generate or reuse correlation_id: 699e955f-9baf-41e3-a717-45bd8d4f17e7
-2025-04-10 14:08:16,292 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
-2025-04-10 14:08:16,293 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
-2025-04-10 14:08:16,293 - DEBUG -             __call__() Configuring proxies: ''
-2025-04-10 14:08:16,293 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
-2025-04-10 14:08:16,890 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A2bff4c52-1cb1-772f-c550-97f4999e9e7e HTTP/1.1" 202 0
-2025-04-10 14:08:16,891 - DEBUG - _initiate_mcp_routine() Initial activity sent. Activity ID: 
-2025-04-10 14:08:16,891 - DEBUG - _initiate_mcp_routine() Waiting for 10 seconds...
-2025-04-10 14:08:26,892 - INFO - _initiate_mcp_routine() Getting query from config...
-2025-04-10 14:08:26,893 - DEBUG - _initiate_mcp_routine() Selected query: Find the ASCII values of characters in INDIA and then return sum of exponentials of those values.
-2025-04-10 14:08:26,894 - INFO - _initiate_mcp_routine() Processing query: Find the ASCII values of characters in INDIA and then return sum of exponentials of those values.
-2025-04-10 14:08:26,894 - INFO - _initiate_mcp_routine() Creating query processing card...
-2025-04-10 14:08:26,895 - INFO - _initiate_mcp_routine() Sending query processing activity...
-2025-04-10 14:08:26,897 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
-2025-04-10 14:08:26,898 - DEBUG -             __init__() Generate or reuse correlation_id: 4ac8f4ba-1364-4b75-993d-294ba1444080
-2025-04-10 14:08:26,898 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
-2025-04-10 14:08:26,899 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
-2025-04-10 14:08:26,899 - DEBUG -             __call__() Configuring proxies: ''
-2025-04-10 14:08:26,900 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
-2025-04-10 14:08:27,460 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A2bff4c52-1cb1-772f-c550-97f4999e9e7e HTTP/1.1" 202 0
-2025-04-10 14:08:27,463 - INFO - _initiate_mcp_routine() Calling MCP client process_query...
-2025-04-10 14:08:27,464 - INFO -        process_query() Generating plan...
-2025-04-10 14:08:27,464 - INFO - generate_with_timeout() Starting LLM generation...
-2025-04-10 14:08:33,500 - INFO - generate_with_timeout() LLM generation completed
-2025-04-10 14:08:33,501 - INFO -        process_query() Executing plan...
-2025-04-10 14:08:33,502 - INFO - generate_with_timeout() Starting LLM generation...
-2025-04-10 14:08:34,631 - INFO - generate_with_timeout() LLM generation completed
-2025-04-10 14:08:34,633 - INFO - generate_with_timeout() Starting LLM generation...
-2025-04-10 14:08:37,596 - INFO - generate_with_timeout() LLM generation completed
-2025-04-10 14:08:37,598 - DEBUG - _initiate_mcp_routine() Query processing result: ```json
-{
-    "response_type": "plan",
-    "steps": [
-        {
-            "step_number": 1,
-            "description": "Convert the string 'INDIA' into a list of ASCII values.",
-            "reasoning": "The problem requires the ASCII values of the characters in the word 'INDIA' to perform calculations. This step converts each character into its corresponding ASCII representation.",
-            "expected_tool": "strings_to_chars_to_int"
-        },
-        {
-            "step_number": 2,
-            "description": "Calculate the exponential of each ASCII value.",
-            "reasoning": "The problem requires calculating the exponential of each ASCII value obtained in the previous step. This step applies the exponential function to each value.",
-            "expected_tool": "math_tool"
-        },
-        {
-            "step_number": 3,
-            "description": "Sum the exponentials calculated in the previous step.",
-            "reasoning": "The problem requires summing all the exponential values to obtain a final result. This step adds all the values calculated in the previous step.",
-            "expected_tool": "math_tool"
-        },
-        {
-            "step_number": 4,
-            "description": "Display the final result on a canvas with specified dimensions, font size, color contrast, and formatting.",
-            "reasoning": "To make it easily readable for visually impaired individuals, the result is displayed on a canvas with appropriate visual settings.",
-            "expected_tool": "canvas_tool"
-        },
-        {
-            "step_number": 5,
-            "description": "Send an email with the problem statement, steps, and final answer.",
-            "reasoning": "To provide an audit trail and record of the solution, an email is sent containing all the relevant details.",
-            "expected_tool": "email_tool"
-        }
-    ]
-}
-```
-2025-04-10 14:08:37,599 - INFO - _initiate_mcp_routine() Creating result card...
-2025-04-10 14:08:37,599 - INFO - _initiate_mcp_routine() Sending final result activity...
-2025-04-10 14:08:37,601 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
-2025-04-10 14:08:37,602 - DEBUG -             __init__() Generate or reuse correlation_id: 44b8ac8d-5dd1-42b0-9fa1-8cd2465c5f42
-2025-04-10 14:08:37,602 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
-2025-04-10 14:08:37,603 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
-2025-04-10 14:08:37,603 - DEBUG -             __call__() Configuring proxies: ''
-2025-04-10 14:08:37,604 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
-2025-04-10 14:08:38,206 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A2bff4c52-1cb1-772f-c550-97f4999e9e7e HTTP/1.1" 202 0
-2025-04-10 14:08:38,207 - INFO - _initiate_mcp_routine() === Completed _initiate_mcp_routine successfully ===
-2025-04-10 14:08:38,208 - INFO -             messages() No response to send
-2025-04-10 14:08:38,209 - INFO -                  log() ::1 [10/Apr/2025:14:08:16 +0530] "POST /api/messages HTTP/1.1" 200 0 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 14:51:37,570 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:51:37,571 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:51:37,571 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:51:37,572 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:51:37,574 - DEBUG -            _new_conn() Starting new HTTPS connection (1): smba.trafficmanager.net:443
+2025-04-10 14:51:38,378 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/1744276893885 HTTP/1.1" 201 22
+2025-04-10 14:51:38,381 - INFO -             messages() No response to send
+2025-04-10 14:51:38,384 - INFO -                  log() ::1 [10/Apr/2025:14:51:35 +0530] "POST /api/messages HTTP/1.1" 200 112 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 14:51:46,149 - INFO -             messages() Received incoming message request
+2025-04-10 14:51:46,150 - INFO -             messages() Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1171', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsIng1dCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0Mjc2OTA1LA0KICAiZXhwIjogMTc0NDI4MDUwNSwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.l87owGrqBhsnGuhvj9GIckiQ4HiYPfTLD6KkCVmBTUiJKjgraI1sl2jCN1_D7VNFHYq42rnLB9SB_zZNLlIBIpWfCOj66cgENHdl4eiuiN3BcaI_0ImxD-qPQF4cOkHmSSKfG8N1Vq1zr6_hKvYbH_OFs2aRuaXTT06G1-Z6s7To9GptJMfT7V33_E4BZ90hOVfgGZga6V7Kzc159sn64mbwlprC-BxoVIhvyQpRSTuaIfxM0kX4BEEE5EWlJkyHVLkY1w2UOPxxj1emv2oPZHMzBaTX9AfyXzdgP4Phudiiyqs9u6_j1ByVUPDqWmS0e6rQ2kTQJugtsRauqkFxaA', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'RFRNd95rk0qut/JUFdW31g.1.3', 'X-Forwarded-For': '52.112.106.2', 'X-Forwarded-Host': '06c7-171-76-86-50.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 14:51:46,150 - INFO -             messages() Received message body: {'text': 'initiate mcp routine', 'type': 'message', 'timestamp': '2025-04-10T09:21:44.569Z', 'localTimestamp': '2025-04-10T14:51:44.569+05:30', 'id': 'f:17c6955b-98ce-e90a-b998-6d69f6d860b6', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}, 'source': {'name': 'message'}, 'legacy': {'replyToId': '1:1g1ivIvF9R3PdF2JctVENfL0zSizUIq_2cSxS0wZdasU'}}, 'replyToId': '1744276897406', 'value': {}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 14:51:46,152 - INFO -             messages() Processing activity type: message
+2025-04-10 14:51:46,155 - INFO -      _initialize_llm() Configuring Gemini API...
+2025-04-10 14:51:46,156 - INFO -      _initialize_llm() Gemini API configured successfully
+2025-04-10 14:51:46,156 - INFO -           initialize() Establishing connection to MCP servers...
+2025-04-10 14:51:46,156 - DEBUG -           initialize() Math server params: StdioServerParameters(command='python', args=['mcp/mcp_server.py'])
+2025-04-10 14:51:46,157 - DEBUG -           initialize() Gmail server params: StdioServerParameters(command='python', args=['mcp/gmail-mcp-server/src/gmail/server.py', '--creds-file-path=.google/client_creds.json', '--token-path=.google/app_tokens.json'])
+2025-04-10 14:51:46,173 - INFO -           initialize() Connections established, creating sessions...
+2025-04-10 14:51:46,174 - DEBUG -           initialize() Initializing math session...
+2025-04-10 14:51:46,174 - DEBUG -           initialize() Initializing gmail session...
+2025-04-10 14:51:46,175 - DEBUG -           initialize() Fetching tools from math server...
+2025-04-10 14:51:46,176 - DEBUG -           initialize() Math tools result: {'tools': []}
+2025-04-10 14:51:46,176 - DEBUG -           initialize() Math tools: []
+2025-04-10 14:51:46,177 - DEBUG -           initialize() Fetching tools from gmail server...
+2025-04-10 14:51:46,177 - DEBUG -           initialize() Gmail tools result: {'tools': []}
+2025-04-10 14:51:46,177 - DEBUG -           initialize() Gmail tools: []
+2025-04-10 14:51:46,178 - DEBUG -           initialize() Combined tools: []
+2025-04-10 14:51:46,178 - INFO -             messages() No response to send
+2025-04-10 14:51:46,179 - INFO -                  log() ::1 [10/Apr/2025:14:51:46 +0530] "POST /api/messages HTTP/1.1" 200 112 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 14:51:46,180 - INFO - start_processing_loop() Starting message processing loop...
+2025-04-10 14:51:46,181 - INFO - start_processing_loop() Waiting for next message...
+2025-04-10 14:51:46,182 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:51:46,183 - DEBUG -             __init__() Generate or reuse correlation_id: 13a2130e-23f3-4a9a-b806-9b32ebc03fc9
+2025-04-10 14:51:46,184 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:51:46,184 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:51:46,185 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:51:46,185 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:51:46,644 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A17c6955b-98ce-e90a-b998-6d69f6d860b6 HTTP/1.1" 201 22
+2025-04-10 14:51:46,646 - INFO - _process_task_with_iterations() Processing iteration 1/3
+2025-04-10 14:51:46,646 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:51:49,183 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:51:49,184 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:51:49,185 - DEBUG -             __init__() Generate or reuse correlation_id: ef6f14ba-75d9-4c2a-af5c-a36b81be3fd4
+2025-04-10 14:51:49,185 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:51:49,185 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:51:49,186 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:51:49,186 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:51:49,616 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A17c6955b-98ce-e90a-b998-6d69f6d860b6 HTTP/1.1" 201 22
+2025-04-10 14:51:49,618 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:51:50,678 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:51:52,684 - INFO - _process_task_with_iterations() Processing iteration 2/3
+2025-04-10 14:51:52,686 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:51:53,940 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:51:53,942 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:51:53,943 - DEBUG -             __init__() Generate or reuse correlation_id: 350e8dab-9e46-4903-9045-0bb95d44a48b
+2025-04-10 14:51:53,943 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:51:53,944 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:51:53,944 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:51:53,945 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:51:54,401 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A17c6955b-98ce-e90a-b998-6d69f6d860b6 HTTP/1.1" 201 22
+2025-04-10 14:51:54,403 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:51:55,588 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:51:57,596 - INFO - _process_task_with_iterations() Processing iteration 3/3
+2025-04-10 14:51:57,597 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:51:59,909 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:51:59,911 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:51:59,912 - DEBUG -             __init__() Generate or reuse correlation_id: e2d119c7-8ed4-4178-8d5d-572827b14c36
+2025-04-10 14:51:59,912 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:51:59,913 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:51:59,913 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:51:59,914 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:52:00,818 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A17c6955b-98ce-e90a-b998-6d69f6d860b6 HTTP/1.1" 201 22
+2025-04-10 14:52:00,821 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:52:02,013 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:52:04,022 - INFO - start_processing_loop() Waiting for next message...
+2025-04-10 14:52:17,531 - INFO -             messages() Received incoming message request
+2025-04-10 14:52:17,532 - INFO -             messages() Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1104', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsIng1dCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0Mjc2OTM2LA0KICAiZXhwIjogMTc0NDI4MDUzNiwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.HAtXHpN4VfJrKe_BQKzD8E41O0MGNbo14dP4ZM80M44Ze8H_FeK5PHOBuDSHww_qn33IYo6XjyabWndg0-UxZiFQEsvF29aq-jyU2cUC-Kjj4U94I_DpdlHJV68H1MYe-kAawxBjvMIJhMBhlWqQ0mn46vPo7V6bNNO47Jdjm8jDWe6eqdGPYt945ZX937QSH1vQKG7Q4wVs2R7PRw1e1aVB4gZtFjG47KUh_6JTnn_P88qEo0dGtZG-WV5X_KP5BhjVHqq1KNJTFFgNqY-59lUR6OntShrPskTflnEHiX3jOzMQ642C_RVWHYxjdk_ZkoSURBBNacR6GsqA7cH2QA', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'fRM2ketIAEqbDpdvW2Fi+A.1.1.1.288331069.1.1', 'X-Forwarded-For': '52.112.76.0', 'X-Forwarded-Host': '06c7-171-76-86-50.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 14:52:17,533 - INFO -             messages() Received message body: {'text': 'Show Welcome', 'textFormat': 'plain', 'attachments': [{'contentType': 'text/html', 'content': '<p>Show Welcome</p>'}], 'type': 'message', 'timestamp': '2025-04-10T09:22:16.2361677Z', 'localTimestamp': '2025-04-10T14:52:16.2361677+05:30', 'id': '1744276936218', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 14:52:17,534 - INFO -             messages() Processing activity type: message
+2025-04-10 14:52:17,536 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:52:17,536 - DEBUG -             __init__() Generate or reuse correlation_id: ef89d2a0-9076-462f-aac6-2be1d8af834f
+2025-04-10 14:52:17,537 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:52:17,537 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:52:17,537 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:52:17,538 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:52:17,985 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/1744276936218 HTTP/1.1" 201 22
+2025-04-10 14:52:17,986 - INFO -             messages() No response to send
+2025-04-10 14:52:17,988 - INFO -                  log() ::1 [10/Apr/2025:14:52:17 +0530] "POST /api/messages HTTP/1.1" 200 112 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 14:52:21,829 - INFO -             messages() Received incoming message request
+2025-04-10 14:52:21,830 - INFO -             messages() Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1170', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsIng1dCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0Mjc2OTQwLA0KICAiZXhwIjogMTc0NDI4MDU0MCwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.PVHNMkdcu9CHKmWLyD6V2yGw4nyRAQYSTNTd_WEg-GdDDNTfbaYcPaiV8EcFCDM7KQ-n5phbHvO7udT20IrrXbMEKzp1VLhtiR3kDgvZfl_33y1bWd8maduDpT_wLzH8HcPA2Z9TCqf2UwuoCkheypYLHy2g52xek_utqJKSLEGKYJY3Do5VTc79RBHgDk8X5dvJOBe1cdu_UkpXRijLDnHoweR_sed-DLwwBlYlCvAhkZMB7liuEl4aWWdHkx7OY5quzdRMwoft0fNl-zXu3E7FyIiXnKjRzgso5RWeT7ZBaCslFJ4OrX6iNN08DBUHR-xFNqeP8a2U5hV-pFJ0Dw', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'I9M2B3uXEUeBmTzywL1Bcw.1.3', 'X-Forwarded-For': '52.112.106.2', 'X-Forwarded-Host': '06c7-171-76-86-50.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 14:52:21,831 - INFO -             messages() Received message body: {'text': 'message all members', 'type': 'message', 'timestamp': '2025-04-10T09:22:20.222Z', 'localTimestamp': '2025-04-10T14:52:20.222+05:30', 'id': 'f:d1db5b1b-0644-956f-8f1a-829efe0baa54', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}, 'source': {'name': 'message'}, 'legacy': {'replyToId': '1:1VC0uTPRCE5jdmGUUuKQB5U6Sfiy57eOyjTJvrKx818E'}}, 'replyToId': '1744276937079', 'value': {}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 14:52:21,833 - INFO -             messages() Processing activity type: message
+2025-04-10 14:52:21,834 - ERROR -             on_error() 
+ [on_turn_error]: 'connectorClient'
+2025-04-10 14:52:24,768 - ERROR -             on_error() Traceback (most recent call last):
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\agent_basic\.venv\Lib\site-packages\botbuilder\core\bot_adapter.py", line 174, in run_pipeline
+    return await self._middleware.receive_activity_with_status(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        context, callback
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\agent_basic\.venv\Lib\site-packages\botbuilder\core\middleware_set.py", line 69, in receive_activity_with_status
+    return await self.receive_activity_internal(context, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\agent_basic\.venv\Lib\site-packages\botbuilder\core\middleware_set.py", line 79, in receive_activity_internal
+    return await callback(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\agent_basic\.venv\Lib\site-packages\botbuilder\core\activity_handler.py", line 70, in on_turn
+    await self.on_message_activity(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\agent_basic\bots\teams_conversation_bot.py", line 63, in on_message_activity
+    await self._message_all_members(turn_context)
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\agent_basic\bots\teams_conversation_bot.py", line 130, in _message_all_members
+    team_members = await self._get_paged_members(turn_context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dsaha\OneDrive - Microsoft\Documents\Personal\docs\deep\study\artificial intelligence\msteams\agent_basic\bots\teams_conversation_bot.py", line 164, in _get_paged_members
+    current_page = await turn_context.turn_state["connectorClient"].conversations.get_conversation_members(
+                         ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+KeyError: 'connectorClient'
+
+2025-04-10 14:52:24,770 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:52:24,771 - DEBUG -             __init__() Generate or reuse correlation_id: b882eb60-254b-4bf6-8adf-8eaa5acdb0c7
+2025-04-10 14:52:24,772 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:52:24,772 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:52:24,773 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:52:24,773 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:52:25,204 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3Ad1db5b1b-0644-956f-8f1a-829efe0baa54 HTTP/1.1" 201 22
+2025-04-10 14:52:25,205 - INFO -             messages() No response to send
+2025-04-10 14:52:25,206 - INFO -                  log() ::1 [10/Apr/2025:14:52:21 +0530] "POST /api/messages HTTP/1.1" 200 112 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 14:52:38,001 - INFO -             messages() Received incoming message request
+2025-04-10 14:52:38,002 - INFO -             messages() Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1163', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsIng1dCI6IkJXSmVvWTNOR3l0cTlWNm5sSUlqX3dlOHdVUSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0Mjc2OTU2LA0KICAiZXhwIjogMTc0NDI4MDU1NiwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.xLcP2TqX9wmfTixwf7segoGTPGJl9o7K7bjeTBHgeIb6APgL7lvZfhbbtpFrB3JNPoXZx_wGGpZUL3Jq4lClsHvu6x2Cze7glr6_WIN2ZRBsW57CprAXluK3Xh0NEd7fpLgw7dhCdduBv7_ATYstb-UUojGTib76fNNB3xAhzVWC4wFk5IsuIYv1SwE8Lf-17q9iUOvFElo08ymezmXXOdWqfZqhyjVDupvowEeW1A0sO-aX4jW-oXuJwj25n2JVTR6YNujSQ6C7NTpOMU2Zh3OXSd4e5OND7IslMo5PUr-s4qSEXflEH-0d1F_9FxibkiB5_J6ohydVcB8xZ2_OdQ', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'zkjVh7b9AkmtzLCNbAaahQ.1.3', 'X-Forwarded-For': '52.112.106.2', 'X-Forwarded-Host': '06c7-171-76-86-50.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 14:52:38,003 - INFO -             messages() Received message body: {'text': 'show welcome', 'type': 'message', 'timestamp': '2025-04-10T09:22:36.448Z', 'localTimestamp': '2025-04-10T14:52:36.448+05:30', 'id': 'f:9e64b68a-21c1-01f5-9370-5aefe1e64c15', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}, 'source': {'name': 'message'}, 'legacy': {'replyToId': '1:1VC0uTPRCE5jdmGUUuKQB5U6Sfiy57eOyjTJvrKx818E'}}, 'replyToId': '1744276937079', 'value': {}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 14:52:38,004 - INFO -             messages() Processing activity type: message
+2025-04-10 14:52:38,007 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:52:38,007 - DEBUG -             __init__() Generate or reuse correlation_id: 112872c4-0459-436c-a970-d1311a3ca86e
+2025-04-10 14:52:38,008 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:52:38,009 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:52:38,009 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:52:38,010 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:52:38,452 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A9e64b68a-21c1-01f5-9370-5aefe1e64c15 HTTP/1.1" 201 22
+2025-04-10 14:52:38,454 - INFO -             messages() No response to send
+2025-04-10 14:52:38,454 - INFO -                  log() ::1 [10/Apr/2025:14:52:38 +0530] "POST /api/messages HTTP/1.1" 200 112 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 14:52:43,643 - INFO -             messages() Received incoming message request
+2025-04-10 14:52:43,643 - INFO -             messages() Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1161', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsIng1dCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0Mjc2OTYyLA0KICAiZXhwIjogMTc0NDI4MDU2MiwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.pYj9wxfch1Nccix1deYzLTEsqwgmExFc02NinPAoYmqhfW62tAGh9pmEGfcGHPOqVDrJ6rq4KV84RyILTMS00SvWTpc99CBUcvQr_ZiuJqt66xyLnd4beX0tUQmcrCQE0pFeTcVjqFWthmGAIIwUtga2zy1KzqBSpfDFOtXBPAY9kUusAf4VFkklRsG8goOX9nYyFlgm9jXzgLHWPfaibF5CpJArTl5vopCuGpioUMW8H6oIYas8j6JVKvgKhJk7qqUGOdT-AAs5a4jsaxEN9f7xFuqMWTN4xtd8EzN8RH7eBfujIVhCL0OlScB-WTrw95D_mYGx6Ay-M82sWFalRQ', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'lbl9FvaAFEWcV/O80ZBJeA.1.3', 'X-Forwarded-For': '52.112.76.0', 'X-Forwarded-Host': '06c7-171-76-86-50.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 14:52:43,644 - INFO -             messages() Received message body: {'text': 'mention me', 'type': 'message', 'timestamp': '2025-04-10T09:22:42.185Z', 'localTimestamp': '2025-04-10T14:52:42.185+05:30', 'id': 'f:fe986e54-f985-d2fd-9476-ea0526d96ca6', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}, 'source': {'name': 'message'}, 'legacy': {'replyToId': '1:1xMWY2KGaWKCr54gvemn5EVaM56kOZCu_yIXYSfU_jlg'}}, 'replyToId': '1744276957555', 'value': {}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 14:52:43,645 - INFO -             messages() Processing activity type: message
+2025-04-10 14:52:43,648 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:52:43,649 - DEBUG -             __init__() Generate or reuse correlation_id: f5db887c-c1c7-4527-842d-89f2712f79eb
+2025-04-10 14:52:43,650 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:52:43,651 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:52:43,651 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:52:43,652 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:52:44,084 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3Afe986e54-f985-d2fd-9476-ea0526d96ca6 HTTP/1.1" 201 22
+2025-04-10 14:52:44,085 - INFO -             messages() No response to send
+2025-04-10 14:52:44,086 - INFO -                  log() ::1 [10/Apr/2025:14:52:43 +0530] "POST /api/messages HTTP/1.1" 200 112 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 14:52:46,540 - INFO -             messages() Received incoming message request
+2025-04-10 14:52:46,541 - INFO -             messages() Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1171', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsIng1dCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0Mjc2OTY1LA0KICAiZXhwIjogMTc0NDI4MDU2NSwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.dLEFw91fhLCv3YIsKT8MPsa6XlxIE-f7ZMOcxrwcFPzf77ZWWddXJkfHIWHkFrm7xdsltJ5tpt08gTKIK2q6Y3rszyT_XTvvGP1X9eW-uc8lQILz2S42lItKU1YjocsMVO96oeXykdYgUbx4oADMv04wHj48psicQ29rJSWFQz6kfXxOxIPsjduuCOYaFcN7XtjUkCvAGTZ9FevoVW5GWf13g5x4lDemGmCNzcPGnSvOEe3BtWsp25liGKNa6XW8PuQi51SowsUg4hmVY0Rl2uIyKYhOfpdfj8MH9L_S6YfkFouGBTzy759BnD79-z9Jr3uK6CKH9f0IEDkszeZEMA', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'Sw/w55+uE0qysaE43jM5vw.1.3', 'X-Forwarded-For': '52.112.76.0', 'X-Forwarded-Host': '06c7-171-76-86-50.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 14:52:46,542 - INFO -             messages() Received message body: {'text': 'initiate mcp routine', 'type': 'message', 'timestamp': '2025-04-10T09:22:45.214Z', 'localTimestamp': '2025-04-10T14:52:45.214+05:30', 'id': 'f:9032d9e3-5c61-e68e-be27-1bff817c4c7a', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}, 'source': {'name': 'message'}, 'legacy': {'replyToId': '1:1xMWY2KGaWKCr54gvemn5EVaM56kOZCu_yIXYSfU_jlg'}}, 'replyToId': '1744276957555', 'value': {}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 14:52:46,544 - INFO -             messages() Processing activity type: message
+2025-04-10 14:52:46,545 - INFO -             messages() No response to send
+2025-04-10 14:52:46,547 - INFO -                  log() ::1 [10/Apr/2025:14:52:46 +0530] "POST /api/messages HTTP/1.1" 200 112 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 14:52:46,550 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:52:46,551 - DEBUG -             __init__() Generate or reuse correlation_id: cc61e8ec-196f-464b-9fc2-52858101281e
+2025-04-10 14:52:46,551 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:52:46,552 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:52:46,552 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:52:46,553 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:52:47,553 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A9032d9e3-5c61-e68e-be27-1bff817c4c7a HTTP/1.1" 201 22
+2025-04-10 14:52:47,555 - INFO - _process_task_with_iterations() Processing iteration 1/3
+2025-04-10 14:52:47,556 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:52:50,160 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:52:50,162 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:52:50,163 - DEBUG -             __init__() Generate or reuse correlation_id: 80b73df6-1968-4321-a245-3c8114ab879b
+2025-04-10 14:52:50,164 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:52:50,164 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:52:50,165 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:52:50,165 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:52:50,686 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A9032d9e3-5c61-e68e-be27-1bff817c4c7a HTTP/1.1" 201 22
+2025-04-10 14:52:50,688 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:52:51,760 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:52:53,767 - INFO - _process_task_with_iterations() Processing iteration 2/3
+2025-04-10 14:52:53,768 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:52:54,809 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:52:54,811 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:52:54,812 - DEBUG -             __init__() Generate or reuse correlation_id: c18ffed1-14cd-4b0e-a790-bea154fb32a3
+2025-04-10 14:52:54,812 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:52:54,813 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:52:54,813 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:52:54,813 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:52:55,316 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A9032d9e3-5c61-e68e-be27-1bff817c4c7a HTTP/1.1" 201 22
+2025-04-10 14:52:55,320 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:52:56,297 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:52:58,309 - INFO - _process_task_with_iterations() Processing iteration 3/3
+2025-04-10 14:52:58,311 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:53:00,567 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:53:00,569 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:53:00,570 - DEBUG -             __init__() Generate or reuse correlation_id: 0c05ed81-a09b-47f7-a043-5f9cf754a9f2
+2025-04-10 14:53:00,571 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:53:00,572 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:53:00,572 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:53:00,573 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:53:01,047 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A9032d9e3-5c61-e68e-be27-1bff817c4c7a HTTP/1.1" 201 22
+2025-04-10 14:53:01,049 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:53:02,022 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:53:04,038 - INFO - start_processing_loop() Waiting for next message...
+2025-04-10 14:53:18,521 - INFO -             messages() Received incoming message request
+2025-04-10 14:53:18,522 - INFO -             messages() Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1104', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsIng1dCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0Mjc2OTk3LA0KICAiZXhwIjogMTc0NDI4MDU5NywNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.JzbBSHnrUkNZCGeUc8jZAQSvHU2XQw-QsZ-F6QvTK3HW2v1c5XdEaEqPL4tMJDPKbzKR-TJezmHuY7Jz6hHls9LG2HGjzCpqNQ6d5MUV6lb6DIeolaiB6yBknLU9vpkJNYmCisF55I5pkZ5IiHsdzNeJiij6m2NecZjEtndpunG2vTXsA3oanGLfLpXprFsFBmh4a4qFc1gjiQa9z6PuAq4zgF7hsZKpeCWN8bn0aFFqEilbYOiG86As8IrR3cnKEqFRjs7e7fk-qaMukICM9MZOy4PDhWQ0YYtxgpv0Mm2zPQfRQhpFG9ne9mnqI0rswKL9NLzWPnXyAiN4Ay8XSQ', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': 'tbhaMkKcc0+Po+aJzJ/VYw.1.1.1.290769728.1.1', 'X-Forwarded-For': '52.112.76.0', 'X-Forwarded-Host': '06c7-171-76-86-50.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 14:53:18,523 - INFO -             messages() Received message body: {'text': 'Show Welcome', 'textFormat': 'plain', 'attachments': [{'contentType': 'text/html', 'content': '<p>Show Welcome</p>'}], 'type': 'message', 'timestamp': '2025-04-10T09:23:17.5711469Z', 'localTimestamp': '2025-04-10T14:53:17.5711469+05:30', 'id': '1744276997552', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 14:53:18,524 - INFO -             messages() Processing activity type: message
+2025-04-10 14:53:18,526 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:53:18,527 - DEBUG -             __init__() Generate or reuse correlation_id: c4f4f98c-0e1c-49ec-b86e-13b4632163fd
+2025-04-10 14:53:18,527 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:53:18,528 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:53:18,528 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:53:18,528 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:53:19,002 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/1744276997552 HTTP/1.1" 201 22
+2025-04-10 14:53:19,003 - INFO -             messages() No response to send
+2025-04-10 14:53:19,004 - INFO -                  log() ::1 [10/Apr/2025:14:53:18 +0530] "POST /api/messages HTTP/1.1" 200 112 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 14:53:22,245 - INFO -             messages() Received incoming message request
+2025-04-10 14:53:22,246 - INFO -             messages() Request headers: <CIMultiDictProxy('Host': 'localhost:3978', 'User-Agent': 'Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)', 'Content-Length': '1171', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsIng1dCI6IkZ1c2pPMk5kSE1RZVM2VnRPLVoxRTNndXQzQSIsInR5cCI6IkpXVCJ9.ew0KICAic2VydmljZXVybCI6ICJodHRwczovL3NtYmEudHJhZmZpY21hbmFnZXIubmV0L2FtZXIvNDk2ZmRmMWMtY2Q5Mi00YmFkLWI3MjktMDFkZjc4NTkzYzg2LyIsDQogICJuYmYiOiAxNzQ0Mjc3MDAxLA0KICAiZXhwIjogMTc0NDI4MDYwMSwNCiAgImlzcyI6ICJodHRwczovL2FwaS5ib3RmcmFtZXdvcmsuY29tIiwNCiAgImF1ZCI6ICI0ZjlhZTIxOS1iYzAzLTQyMTEtOWMyYS1mMWQ2MWFlNmY4NGEiDQp9.DS0-zYiEaDWmF9-pn_0TWhF1WN1Z4nBm-8_Vd4-ZaEnNL-pmcW8Rab7kzxpJ4T61wtXJkZ3rLm8K8iElP7tNuZSZmc8IF9YyB3sVQThYGWDFh-9TIG-HO6hHUyCBS-BjlUqZ45s6idAv-C8zGSDBbpK-QXdlGacIioMTd92g6ErLHkm7EsquVmdsEmfSYFJXUrJIhV3_kIZFjG3hYjfb22_l44SdewRpaGIUoaEbT0hiDwtYQvYo7IzMweq2sxo6UsMQy_mwPx6sscNxE6DN-c8Ko2-fpF2zb9J2ratSdOZ8Wc_a0ArCWGLHq7eTC8LLQKYVugyB2uLv3xqAUfWxhQ', 'Content-Type': 'application/json; charset=utf-8', 'Ms-Cv': '90038d7sckOnzsxEGtQ60w.1.3', 'X-Forwarded-For': '52.112.76.0', 'X-Forwarded-Host': '06c7-171-76-86-50.ngrok-free.app', 'X-Forwarded-Proto': 'https', 'X-Ms-Conversation-Id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo', 'X-Ms-Tenant-Id': '496fdf1c-cd92-4bad-b729-01df78593c86', 'Accept-Encoding': 'gzip')>
+2025-04-10 14:53:22,247 - INFO -             messages() Received message body: {'text': 'initiate mcp routine', 'type': 'message', 'timestamp': '2025-04-10T09:23:21.149Z', 'localTimestamp': '2025-04-10T14:53:21.149+05:30', 'id': 'f:388e85e4-49b0-5328-ebfa-ba36c6d19fa5', 'channelId': 'msteams', 'serviceUrl': 'https://smba.trafficmanager.net/amer/496fdf1c-cd92-4bad-b729-01df78593c86/', 'from': {'id': '29:1i-u97L-F11jVCfV5o0RPxlhB8XGavQ4ASbisywh7VmH_-iu85OVnPGkebOe5Inz3oXkf3VESz561h4bBk6f9jw', 'name': 'MOD Administrator', 'aadObjectId': '6b9aa0e5-796a-454b-be0e-6c85690b9df5'}, 'conversation': {'conversationType': 'personal', 'tenantId': '496fdf1c-cd92-4bad-b729-01df78593c86', 'id': 'a:1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo'}, 'recipient': {'id': '28:4f9ae219-bc03-4211-9c2a-f1d61ae6f84a', 'name': 'deepjyoti-bot'}, 'entities': [{'locale': 'en-US', 'country': 'US', 'platform': 'Web', 'timezone': 'Asia/Calcutta', 'type': 'clientInfo'}], 'channelData': {'tenant': {'id': '496fdf1c-cd92-4bad-b729-01df78593c86'}, 'source': {'name': 'message'}, 'legacy': {'replyToId': '1:19-4uOZKZR1shwfhgkUsA8E1gurip51x37sf4YNdGq6s'}}, 'replyToId': '1744276998106', 'value': {}, 'locale': 'en-US', 'localTimezone': 'Asia/Calcutta'}
+2025-04-10 14:53:22,249 - INFO -             messages() Processing activity type: message
+2025-04-10 14:53:22,250 - INFO -             messages() No response to send
+2025-04-10 14:53:22,251 - INFO -                  log() ::1 [10/Apr/2025:14:53:22 +0530] "POST /api/messages HTTP/1.1" 200 112 "-" "Microsoft-SkypeBotApi (Microsoft-BotFramework/3.0)"
+2025-04-10 14:53:22,253 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:53:22,253 - DEBUG -             __init__() Generate or reuse correlation_id: bca4955c-9371-416d-872a-df25adb374bd
+2025-04-10 14:53:22,256 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:53:22,257 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:53:22,258 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:53:22,258 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:53:22,744 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A388e85e4-49b0-5328-ebfa-ba36c6d19fa5 HTTP/1.1" 201 22
+2025-04-10 14:53:22,746 - INFO - _process_task_with_iterations() Processing iteration 1/3
+2025-04-10 14:53:22,747 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:53:25,260 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:53:25,263 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:53:25,264 - DEBUG -             __init__() Generate or reuse correlation_id: 3e1d7cbb-e123-4e6e-990a-a6d7f7e234cb
+2025-04-10 14:53:25,265 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:53:25,266 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:53:25,266 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:53:25,267 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:53:25,713 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A388e85e4-49b0-5328-ebfa-ba36c6d19fa5 HTTP/1.1" 201 22
+2025-04-10 14:53:25,717 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:53:26,774 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:53:28,790 - INFO - _process_task_with_iterations() Processing iteration 2/3
+2025-04-10 14:53:28,791 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:53:29,945 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:53:29,947 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:53:29,948 - DEBUG -             __init__() Generate or reuse correlation_id: 1551e41f-11cc-41ef-aa36-79255814063b
+2025-04-10 14:53:29,949 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:53:29,950 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:53:29,950 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:53:29,951 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:53:30,394 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A388e85e4-49b0-5328-ebfa-ba36c6d19fa5 HTTP/1.1" 201 22
+2025-04-10 14:53:30,396 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:53:31,486 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:53:33,496 - INFO - _process_task_with_iterations() Processing iteration 3/3
+2025-04-10 14:53:33,498 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:53:36,169 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:53:36,172 - DEBUG - _acquire_token_silent_from_cache_and_possibly_refresh_it() Cache hit an AT
+2025-04-10 14:53:36,173 - DEBUG -             __init__() Generate or reuse correlation_id: b2166e8a-7385-44ac-a07d-62c51d85972d
+2025-04-10 14:53:36,174 - DEBUG -             __call__() Configuring redirects: allow=True, max=30
+2025-04-10 14:53:36,175 - DEBUG -             __call__() Configuring request: timeout=100, verify=True, cert=None
+2025-04-10 14:53:36,175 - DEBUG -             __call__() Configuring proxies: ''
+2025-04-10 14:53:36,176 - DEBUG -             __call__() Evaluate proxies against ENV settings: True
+2025-04-10 14:53:36,625 - DEBUG -        _make_request() https://smba.trafficmanager.net:443 "POST /amer/496fdf1c-cd92-4bad-b729-01df78593c86/v3/conversations/a%3A1NTJLjjZb1CcK9hGyZvFi64cs52-8FbdYRrohXY1OwfFWqYp89ToXzkpdjLQcdxOqhZB3nL1pQHlZhvX6tdaF-qReyQ8aJ9wzqGlKof-o7tI1RWnNmiTAZfaPgCtahwlo/activities/f%3A388e85e4-49b0-5328-ebfa-ba36c6d19fa5 HTTP/1.1" 201 22
+2025-04-10 14:53:36,627 - INFO - generate_with_timeout() Starting LLM generation...
+2025-04-10 14:53:37,719 - INFO - generate_with_timeout() LLM generation completed
+2025-04-10 14:53:39,731 - INFO - start_processing_loop() Waiting for next message...

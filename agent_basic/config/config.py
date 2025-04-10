@@ -11,7 +11,7 @@ class Config:
     APP_PASSWORD = os.getenv("MicrosoftAppPassword", "")
 
     # System configuration
-    MAX_ITERATIONS = 10
+    MAX_ITERATIONS = 3
     TIMEOUT_SECONDS = 20
     MODEL_NAME = 'gemini-2.0-flash'
     LOG_LEVEL = 'DEBUG'
