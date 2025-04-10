@@ -4,4 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "aiohttp>=3.11.16",
+    "botbuilder>=0.0.1",
+    "botbuilder-core>=4.16.2",
+    "google>=3.0.0",
+    "google-generativeai>=0.8.4",
+    "python-dotenv>=1.1.0",
+]

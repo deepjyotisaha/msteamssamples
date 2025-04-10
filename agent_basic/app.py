@@ -3,6 +3,9 @@
 # Licensed under the MIT License.
 
 import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 import traceback
 import logging
 from datetime import datetime
@@ -16,15 +19,15 @@ from botbuilder.core import (
 )
 from botbuilder.schema import Activity, ActivityTypes
 from bots.teams_conversation_bot import TeamsConversationBot
-from config import DefaultConfig
+from config import DefaultConfig  # or Config
 
 # Configure logging
 logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
+    level=logging.DEBUG,
+    format='%(asctime)s - %(levelname)s - %(funcName)20s() %(message)s',
     handlers=[
         logging.StreamHandler(sys.stdout),
-        logging.FileHandler('bot.log')
+        logging.FileHandler('bot.log', mode='w')
     ]
 )
 logger = logging.getLogger(__name__)
